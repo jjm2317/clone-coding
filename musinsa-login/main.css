@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+body{
+  
+  font-family:'Spoqa Han Sans';
+}
+*,*::before,*::after{
+  box-sizing: border-box;
+}
+.a11y-hidden, legend{
+  
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow:hidden;
+  margin:-1px;
+  clip-path: polygon(0 0, 0 0, 0 0);
+}
+.login{
+  margin:0 auto;
+}
+.login-heading{
+  text-align:center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-size: 2em;
+  font-family: 'Nanum Gothic', sans-serif;
+  text-transform: uppercase;
+  margin:0 auto;
+}
+.login-heading span{
+  font-weight: lighter;
+}
+.login-form fieldset{
+  border:none;
+  margin:0 auto;
+  padding:0;
+  width:400px;
+}
+.login-form-list{
+  list-style:none;
+  padding-left:0;
+  margin:0;
+}
+.login-form-list .user-id,
+.login-form-list .user-pw{
+  height:50px;
+  width:400px;
+  margin-bottom:15px;
+  padding-left: 10px;
+}
+.login-btn{
+  border:none;
+  background-color: #000;
+  color:#fff;
+  width: 400px;
+  height: 60px;
+  font-size:1.2em;
+  font-weight:bold;
+  cursor: pointer;
+  margin-bottom:15px;
+}
+.login-form .auto-login{
+  width:20px;
+  height:20px;
+}
+.login-form label{
+  color:#aaa;
+}
+.member-only{
+  list-style:none;
+  width:400px;
+  margin: 0 auto;
+  padding:15px 0;
+}
+.member-only li{
+  display:inline-block;
+  border-right:1px solid #aaa;
+  padding:0 20px;
+  margin-top: 20px;
+}
+.member-only li:nth-child(3){
+  border:none;
+}
+.member-only a{
+  text-decoration:none;
+  color:#aaa;
+  font-size: 0.8em;
+
+}
+

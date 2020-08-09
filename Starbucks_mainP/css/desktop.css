@@ -1,0 +1,1146 @@
+@import url(/normalize.css);
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+
+*, *::before, *::after {
+  box-sizing:border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 1.4rem; 
+  color: #181818; 
+  font-family: 'Noto Sans KR', sans-serif; /* Noto Sans KR 웹폰트 링크 연결 */
+  font-weight: 400;
+}
+/* 숨김 콘텐츠 */
+.a11y-hidden, legend {
+  position: absolute;/*레이어함*/
+  width: 1px;
+  height: 1px;
+  overflow: hidden;/*넘치는 것 감추기*/
+  margin: -1px;
+  clip-path: polygon(0 0, 0 0, 0 0);
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+}
+/* clearfix */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+/* header 초기화 */
+h1, h2, h3 {
+  margin: 0;
+}
+/*ul 초기화 */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* 앵커 태그 초기화 */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* 버튼 초기화 */
+button {
+  border: 0;
+}
+/* dl, dd 초기화 */
+dl, dd {
+  margin: 0;
+  padding: 0;
+}
+/* fieldset 초기화 */
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/* figure 초기화 */
+figure {
+  margin: 0;
+}
+body {
+  overflow-x: hidden;
+}
+/* 메인메뉴 버튼 링크 */
+.sub-menu__title > a:hover {
+  text-decoration: underline;
+}
+/* 모듈화 */
+[class $="__link"]:hover {
+  text-decoration: underline;
+}
+/* hover 했을때 바뀌는 특 */
+.hover--green:hover {
+  background-color: #00a252;
+  color: #fff;
+  text-decoration: underline;
+  transition: background-color .5s;
+}
+.hover--transparent:hover {
+  background-color: transparent;
+  text-decoration: underline;
+  transition: background-color .5s;
+}
+
+.hover--black:hover {
+  background-color: #000;
+  text-decoration: underline;
+  color: #fff;
+  transition: background-color .5s;
+}
+.hover--white:hover {
+  background-color: #fff;
+  text-decoration: underline;
+  color: #000;
+  transition: background-color .5s;
+}
+.footer-box:hover {
+  text-decoration: underline;
+}
+/* 레이아웃 가로 너비 설정 */
+.header{
+  width: 1100px;
+  margin: 0 auto;
+
+}
+.season-wrap {
+  position: relative;
+  /* background-color: #097FAF;
+  background: linear-gradient(180deg, #097FAF,#037FB0 ); */
+  background: url(/images/summer3_mv_bg.jpg) 0 0 / cover no-repeat;
+  padding-top: 70px;
+}
+.season-menu {
+  min-height: 650px;
+}
+/* 가로너비 100% 만들기 */
+.sub-menu-wrap {
+  padding: 20px 0 20px 0;
+  
+}
+.main-wrap{
+  position: relative;
+  width: 100%;
+}
+
+/* 컨텐츠 바로가기 */
+.skip{
+  text-align: center;
+  background-color: burlywood;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* 아이콘(이미지 설정) */
+.green-new::after {
+  content: "";
+  background-image: url(/images/icon_gnb_new.png);
+  display: inline-block;
+  margin-left: .1em;
+  width: 34px;
+  height: 15px;
+  vertical-align: baseline;
+}
+/* 윗첨자 줄이기 */
+.sub-menu__title .sup-size {
+  font-size: 3px;
+}
+/* header*/
+.header-container {
+  border-bottom: 1px solid #e5e5e5;
+  width: 100%;
+  top:0;
+  left:0;
+  position: sticky;
+  background-color: #f6f5f0;
+  z-index:100;
+  max-height: 120px;
+}
+.header [class $="__link"]:hover{
+  text-decoration: underline;
+}
+/* 헤더 로고 */
+.logo {
+  float: left;
+  margin-top: 20px;
+}
+/* 네비게이션 멤버링크 */
+.nav-member {
+  float: right;
+  color: #333;
+  padding-right:30px;
+}
+.member__list {
+  display: inline-block;
+}
+.member__item {
+  display: inline-block;
+  /* background-color: lightpink; */
+  line-height: 35px;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+.member__item > a[href="#"] {
+  padding: 10px;
+}
+.divider {
+  color: #ccc;
+}
+/* 네비게이션 검색폼 */
+.search-form {
+  display: inline-block;
+  margin-right: 50px;
+  position: relative;
+  border-radius: 5px;
+  width: 33px;
+  border: 1px solid #ccc;
+  padding:5px 0 5px 2px;
+  background-color: #fff;
+  margin-bottom: 2px;
+  position:relative;
+  transition: all 500ms;  
+}
+.search-form__input{
+  width: 80%;
+  height: 22px;
+  font-size: 1.2rem;
+  border: 0;
+  border-radius: 5px;
+}
+.search-form__btn{
+  background-color: #fff;
+  border-radius: 5px;
+  text-indent: 35px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top:2px;
+  right:1px;
+  cursor:pointer;
+  color: #555;
+}
+.search-form__btn::after{
+  background: url(/images/icon_magnifier_black.png) no-repeat;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 5px;
+  right: -3px;
+}
+
+/* 메인 메뉴 */
+.nav-menu {
+  float:right;
+  padding-right: 20px;
+}
+.main-menu__item {
+  display: inline-block;
+}
+.main-menu__button {
+  margin-top: 20px;
+  padding: 13px 20px 35px 20px;
+  cursor:pointer;
+  color: #333;
+  background-color: transparent;
+}
+
+/* 서브 메뉴 */
+.menu-act .main-menu__button,.menu-hover .main-menu__button{
+  color: #64A70B;
+  text-decoration: underline;
+  background-color: rgba(0,0,0,0.8);
+}
+.sub-group{
+  display: none;
+  transition: all 100ms;
+  max-height: 0;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 50px 0;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #F6F5F0;
+}
+.menu-act .sub-group,.menu-hover .sub-group{
+  display: block;
+  animation-name: slideIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  transition: all 1s;
+}
+@keyframes slideIn {
+  0% {
+    max-height: 0;
+  }
+  100% {
+    max-height: 1100px;
+  }
+}
+.sub-menu-bg{
+  background-color: rgba(0,0,0,0.8);
+}
+.sub-menu-wrap,
+.menu-amp__list{
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.sub-menu{
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+  color: #fff;
+}
+.sub-menu:nth-child(n+6) {
+  margin-top: 30px;
+}
+.sub-menu__title {
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.sub-menu__title a{
+  
+  vertical-align: top;
+}
+.sub-menu__item {
+  color: #999;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+.menu-amp-bg {
+ background-image: url(/images/gnb_sub_txbg.jpg);
+}
+.menu-amp__list {
+  color: #999;
+  padding: 30px 30px 30px 0;
+
+  line-height: 1.3;
+  font-size: 1.4rem;
+}
+.menu-amp__brief {
+  color: #64a70b;
+  padding-bottom: 10px;
+}
+/* 여름 시즌 메뉴 */
+
+.season-menu {
+  width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+.season__item:nth-child(1){
+  width: 285px;
+  position: absolute;
+  top: 200px;
+  left: 350px;
+}
+.season__item:nth-child(2){
+  width: 170px;
+  position: absolute;
+  top: 0;
+  left: 600px;
+  z-index:10;
+}
+.season__item:nth-child(3){
+  width: 320px;
+  position: absolute;
+  top: 150px;
+  left: 750px;
+}
+.season__item:nth-child(1)::before{
+  content:"";
+  background:url(https://image.istarbucks.co.kr/upload/common/img/main/2020/summer3_bev1_txt.png) 0 0/ cover no-repeat;
+  position:absolute;
+  width: 209px;
+  height: 56px;
+  bottom:30%;
+  left:-60%;
+}
+.season__item:nth-child(2)::before{
+  content:"";
+  background:url(https://image.istarbucks.co.kr/upload/common/img/main/2020/summer3_bev2_txt.png);
+  position:absolute;
+  width: 213px;
+  height: 82px;
+  top:0;
+  left:-140%;
+
+}
+
+.season__item:nth-child(3)::before{
+  content:"";
+  background:url(https://image.istarbucks.co.kr/upload/common/img/main/2020/summer3_bev3_txt.png);
+  position:absolute;
+  width: 217px;
+  height: 56px; 
+  bottom:-20%;
+  right: 0;
+}
+.season-md{
+  position: fixed;
+  margin-left: 485px;
+  top:138px;
+  left:55%;
+  width: 141px;
+  height: 252px;
+  z-index: 999;
+}
+
+.season-md a{
+  height: 100%;
+  width: 100%;
+}
+.md-close {
+  background: transparent;
+  position: absolute;
+  top: 25px;
+  right: 20px;
+}
+.fa-times-circle {
+  color: #000;
+}
+/* 앵커 박스 모듈화 */
+.link-box{
+  display: inline-block;
+  font-size: 14px;
+  height: 100%;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 3px;
+  width: 125px;
+  height: 35px;
+  line-height: 34px;
+}
+.link-box [class$="__link"]{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.footer-box {
+  width: 115px;
+  height: 35px;
+  background: none;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  margin: 10px 0 0 0;
+  line-height: 30px;
+}
+.font--white{
+  color: #fff;
+}
+.border--white{
+  border-color: #fff;
+}
+.border--black{
+  border-color: #000;
+}
+.bg--black {
+  background-color: #000;
+}
+
+/* 서머 모어 */
+.summer-more {
+  margin-top: 40px;
+  font-weight: 900;
+}
+.summer-more__link{
+  display: block;
+}
+
+.send-gift {
+  width: 255px;
+  height: 35px;
+}
+@keyframes bgAni1{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+@keyframes bgAni2{
+  0%{
+    opacity:0;
+  }
+  50%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+@keyframes bgAni3{
+  0%{
+    opacity:0;
+  }
+  33%{
+    opacity:0;
+  }
+  66%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+@keyframes bgAni4{
+  0%{
+    opacity:0;
+  }
+  25%{
+    opacity:0;
+  }
+  50%{
+    opacity:0;
+  }
+  75%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+@keyframes bgAni5{
+  0%{
+    opacity:0;
+  }
+  20%{
+    opacity:0;
+  }
+  40%{
+    opacity:0;
+  }
+  60%{
+    opacity:0;
+  }
+  80%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+.slogan{
+  animation: bgAni4 2000ms ease-in;
+}
+.summer-more{
+  animation: bgAni5 2500ms ease-in;
+}
+.season__item:nth-child(1){
+  animation: bgAni2 1000ms ease-in;
+  width: 285px;
+  position: absolute;
+  top: 200px;
+  left: 350px;
+}
+.season__item:nth-child(2){
+  animation: bgAni1 500ms ease-in;
+  width: 170px;
+  position: absolute;
+  top: 0;
+  left: 600px;
+  z-index:10;
+}
+.season__item:nth-child(3){
+  animation: bgAni3 1500ms ease-in;
+  width: 320px;
+  position: absolute;
+  top: 150px;
+  left: 750px;
+}
+/* 공지사항 및 프로모션 */  
+.board-wrap {
+  position: relative;
+  background: linear-gradient(to right, 
+  #111 50%, #f6f5ef 50% 100%);
+}
+.board {
+  width: 1100px;
+  margin: 0 auto;
+}
+.notice {
+  color: #fff;
+  display: inline-block;
+  width: 630px;
+  padding :10px 0;
+  background-color: #111;
+  line-height: 36px;
+}
+
+.notice__title, .notice__list, .notice-more {
+ display: inline-block; 
+}
+.notice__title{
+  vertical-align: middle;
+}
+.notice__list{
+  vertical-align: middle;
+}
+.notice__link {
+  padding-right: 250px;
+}
+.notice__link:hover {
+  text-decoration: underline;
+}
+.notice-more{
+  width: 36px;
+  height: 36px;
+  float: right;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.notice-more__img {
+  width: 100%;
+  height: 100%;
+}
+.notice__title {
+  margin-right: 10px;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.notice__list li:nth-child(n+2) {
+  display: none;
+}
+/* 프로모션 포스터 */
+.promotion{
+  display:inline-block;
+  width: 450px;
+  color: #000;
+  background-color:#f6f5ef;
+  line-height: 35px;
+}
+.promotion__title, .notice__list, .promotion-more {
+  display: inline-block; 
+ }
+.promotion-expand {
+  vertical-align: middle;
+  width: 36px;
+  height: 36px;
+  background-color: transparent;
+  float:right;
+}
+.promotion__title{
+  margin-left:200px;
+  vertical-align: middle;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.poster__title__link {
+  padding-right: 50px;
+}
+.promotion .promotion__title__link:hover{
+  text-decoration:none;
+}
+.poster__list  {
+  display: none;
+}
+/* 스타벅스 리워즈 */
+.rewards-wrap {
+  position: relative;
+  background:  linear-gradient(to right, 
+  #272727 50%, #D5C798 50% 100%);
+}
+.rewards {
+  width: 1100px;
+  min-height: 260px;
+  margin:0 auto;
+  position: relative;
+}
+.rewards__img {
+  position: absolute;
+  top: 40%;
+  left: 0;
+}
+.rewards::before {
+  content: "";
+  background: url(/images/reward_star_bg_m.png) right 0 / cover no-repeat ;
+  position: absolute;
+  top: 0;
+  left: -50px;
+  width: 350px;
+  min-height: 260px;
+}
+.rewards::after {
+  content: "";
+  background: url(/images/reward_texbg.jpg) 0 0 / cover no-repeat;
+  display: block;
+  width: 100%;
+  min-height: 260px;
+}
+.rewards-member__brief, .rewards-gift__brief {
+  width: 450px;
+  white-space: pre;
+  margin-left: 270px;
+  display:inline-block;
+  margin-bottom: 0;
+  line-height: 1.3;
+}
+.rewards-member__brief{
+  margin-top:10px;
+}
+.rewards-gift__brief{
+  margin-top:-20px;
+}
+.sign-up, .send-gift {
+  /* display: inline-block; */
+  margin-left: 100px;
+}
+.login, .sign-up{
+  vertical-align: top;
+  margin-top: 70px;
+}
+.ft--gray{
+  color: #694D4C;
+  font-size: 1.5rem;
+}
+.rewards__em{
+  font-style:normal;
+  font-weight: 700;
+}
+.send-gift{
+  vertical-align: top;
+  margin-top: 10px;
+}
+.rewards .font-size-big{
+  font-size: 2.3rem;
+  line-height: 1.7;
+}
+.font-size-big {
+  font-size: 3rem;
+}
+.font-bold {
+  font-weight: 700;
+}
+.rewards-content{
+  position: absolute;
+  top:0;
+  left: 0;
+}
+/* 르완다 원두 */
+.bean-wrap {
+  position: relative;
+  background: url(/images/20_summer_rwanda_bg.jpg) right 0 / cover no-repeat;
+}
+.bean {
+  width: 1100px;
+  margin: 0 auto;
+  min-height: 570px;
+  position: relative;
+}
+.bean__figure {
+  position: absolute;
+  top: 75px;
+  left: 150px;
+  animation: movefigure 2s ease-out;
+}
+.bean-content {
+  padding-top: 175px;
+  padding-left: 430px;
+  font-size: 1.5rem;
+  animation: movecontent 2s ease-out;
+}
+.bean__brief {
+  width: 530px;
+  white-space: pre;
+  text-align: left;
+  display: block;
+}
+.bean-brief-text {
+  color: #fff;
+  font-size: 1.4rem;
+  line-height: 1.3;
+}
+.bean-more {
+  margin-left: 65px;
+  display: inline-block;
+}
+
+.bean-font {
+  color: #accab9;
+  margin-left: .5em;
+}
+.bean__brief .font-size-big{
+  margin-left:0.3em;
+}
+@keyframes moveright {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes moveleft {
+  0% {
+    transform: translateX(-100vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+/* 리저브 원두 */
+.reserve-wrap {
+  position: relative;
+  min-height: 400px;
+  background: url(/images/summer2_reserve_bean.png) no-repeat right;
+  background-color: #C3D2D9;
+}
+.reserve {
+  width: 1330px;
+  min-height: 400px;
+  margin: 0 auto;
+  background: url(/images/summer2_reserve_title.png) no-repeat;
+  background-position: left 80px;
+}
+.reserve__title {
+  min-height: 300px;
+}
+.reserve-more {
+  float: left;
+  margin-left: 180px;
+  margin-top: 280px;
+  margin-bottom: 20px;
+}
+.caution {
+  font-size: 1.3rem;
+  float: left;
+  width: 100%;
+  margin-left: 180px;
+  color: #515C5D;
+}
+.caution::before {
+  content: "";
+  display: inline-block;
+  border: 1px solid black;
+  background-color: #000;
+  width: 5px;
+  height: 5px;
+  margin-right: .5em;
+}
+.caution1 {
+  margin-bottom: 10px;
+}
+.caution2 {
+  margin-bottom: 20px;
+}
+/* 스타벅스 다양한 메뉴 */
+.product-wrap {
+  position: relative;
+  background-color: #45434C;
+  background-image: url(/images/fav_prod_bg_new.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto 100%;
+}
+.product {
+  width: 1180px;
+  margin: 0 auto;
+  min-height: 600px;
+  text-align: right;
+}
+
+.product-slogan {
+  color: #fff;
+  float: left;
+  width: 320px;
+  margin-right: 170px;
+  margin-top: 50px;
+  line-height: 1.4;
+}
+.product-slogan img {
+  animation: moveleft 2.5s ease;
+}
+.product-text1 {
+  white-space: pre;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: right;
+  animation: moveleft 2.5s ease-in-out;
+}
+.product-text2 {
+  line-height: 1.3;
+  text-align:right;
+  animation: moveleft 2.5s ease-in-out;
+}
+.product-figure {
+  float: right;
+  width: 672px;
+}
+.product > :nth-child(3) {
+  font-size: 2.7rem;
+}
+.product__em {
+  font-style: normal;
+  font-weight: 700;
+}
+.product-more {
+  margin-left: -300px;
+  margin-top: 50px;
+  float: left;
+}
+
+/* 스타벅스 매거진 */
+.magazine-wrap {
+  position: relative;
+}
+.magazine {
+  width: 1100px;
+  margin: 0 auto;
+}
+.magazine-wrap {
+  background-color: #fff;
+  padding: 90px 0;
+  position: relative;
+  z-index: 0;
+}
+.magazine {
+  width: 1240px;
+  margin: 0 auto;
+  position: relative;
+  /* z-index:-5; */
+}
+.magazine::before{
+  content:"";
+  position:absolute;
+  width: 95.3%;
+  height:1px;
+  background-color: #CCCCCB;
+  top:61.8%;
+  left:9.5%;
+  z-index:-1;
+}
+.magazine::after{
+  content:"";
+  position:absolute;
+  width: 1px;
+  height:64%;
+  background-color: #CCCCCB;
+  top:136px;
+  left:44%;
+  z-index: -1;
+}
+.magazine__brief::before{
+  content:"";
+  display: inline-block;
+  background:
+  url(https://image.istarbucks.co.kr/upload/common/img/main/2020/reserve_visual_pc.png)
+  0 0/ cover no-repeat;
+  width: 470px;
+  height: 515px;
+  margin-left:30px;
+  vertical-align: middle;
+  /* z-index: 10; */
+}
+.magazine__brief::after{
+  content:"";
+  display:inline-block;
+  background: url(https://image.istarbucks.co.kr/upload/common/img/main/2020/reserve_text_pc.png)
+  0 0/ cover no-repeat;
+  width: 565px;
+  height: 83px;
+  margin-left: 80px;
+}
+.magazine__more{
+  position:absolute;
+  top: 65%;
+  right: 30%;
+  font-size: 2.0rem;
+  letter-spacing: 0.3rem;
+  word-spacing: 0.5rem;
+  font-weight: 400;
+  transition: all 400ms;
+}
+.magazine__more:hover{
+  color: #fff;
+  background-color: #946B38;
+}
+/* 매장찾기 */
+.find-wrap {
+  position: relative;
+}
+.find {
+  width: 1100px;
+  margin: 0 auto;
+}
+.find-wrap {
+  background: 
+  #E9E9E9
+  url(https://www.starbucks.co.kr/common/img/main/store_exp_img03.png)
+  no-repeat
+  50% -60px
+  ;
+}
+.find {
+  position:relative;
+  width: 1280px;
+  margin: 0 auto;
+  background:
+  url(https://www.starbucks.co.kr/common/img/main/store_exp_img04.png)
+  no-repeat
+  right bottom;
+  min-height: 400px;
+}
+.find::before{
+  content:"";
+  display: inline-block;
+  width: 366px;
+  height: 312px;
+  background:
+  url(https://www.starbucks.co.kr/common/img/main/store_exp_img02.png)
+  no-repeat
+  0 0;
+  margin-left: 100px;
+}
+.find::after{
+  content:"";
+  position:absolute;
+  top:150px;
+  left:228px;
+  width: 228px;
+  height: 228px;
+  background:
+  url(https://www.starbucks.co.kr/common/img/main/store_exp_img01.png)
+  no-repeat
+  0 0;
+  margin-left: 100px;
+}
+.find__brief{
+  display: inline-block;
+  white-space: pre;
+  vertical-align: top;
+  margin-top:50px;
+  margin-left: 70px;
+  padding-left: 140px;
+  line-height: 1.5;
+}
+.find__brief .bolder{
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.middle-size{
+  font-weight: 400;
+  font-size: 1.8rem;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+.find .find__brief .sup-size{
+  line-height: 0.5;
+  font-size: 0.5rem;
+}
+.find__brief .em{
+  font-style: normal;
+  font-weight: 700;
+}
+.find-market{
+  /* position: absolute;
+  left: 720px;
+  top : 230px; */
+  margin-left: -390px;
+  margin-top: -100px;
+  background-color: transparent;
+}
+/* 푸터 */
+.footer-wrap {
+  position: relative;
+}
+.footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: #2C2A29;
+  color: #E8E8E8;
+}
+.footer-inner {
+  width: 1100px;
+  margin: 0 auto 50px auto;
+}
+.info {
+  vertical-align: top;
+  display: inline-block;
+}
+.info-group {
+  min-height: 260px;
+  margin-top: 45px;
+}
+.info__list {
+  width: 216px;
+  height: auto;
+  margin-top: 20px;
+}
+.info__item {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 2;
+}
+.award__wrap {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 260px;
+}
+
+.award-list {
+  min-height: 81px;
+  
+}
+.rule {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  color: #c6c6c6;
+}
+.company-info__list {
+  margin: 0 0 20px 7px;
+}
+.info__link {
+  padding: 5px 20px 5px 0;
+}
+.rule__green {
+  color: #00B050 !important;
+}
+.company__link {
+  padding: 10px 20px;
+}
+.company__addr {
+  margin-bottom: 10px;
+  font-style: normal;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.company {
+  color: #999999;
+}
+.award-list,
+.rule,
+.company-info,
+.company {
+  text-align: center;
+}
+
+.company-info__list,
+.rule li {
+  display: inline-block;
+}

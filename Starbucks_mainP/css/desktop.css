@@ -114,7 +114,7 @@ body {
   position: relative;
   /* background-color: #097FAF;
   background: linear-gradient(180deg, #097FAF,#037FB0 ); */
-  background: url(/images/summer3_mv_bg.jpg) 0 0 / cover no-repeat;
+  background: url(../images/summer3_mv_bg.jpg) 0 0 / cover no-repeat;
   padding-top: 70px;
 }
 .season-menu {
@@ -141,7 +141,7 @@ body {
 /* 아이콘(이미지 설정) */
 .green-new::after {
   content: "";
-  background-image: url(/images/icon_gnb_new.png);
+  background-image: url(../images/icon_gnb_new.png);
   display: inline-block;
   margin-left: .1em;
   width: 34px;
@@ -229,7 +229,7 @@ body {
   color: #555;
 }
 .search-form__btn::after{
-  background: url(/images/icon_magnifier_black.png) no-repeat;
+  background: url(../images/icon_magnifier_black.png) no-repeat;
   content: "";
   width: 100%;
   height: 100%;
@@ -322,7 +322,7 @@ body {
 }
 
 .menu-amp-bg {
- background-image: url(/images/gnb_sub_txbg.jpg);
+ background-image: url(../images/gnb_sub_txbg.jpg);
 }
 .menu-amp__list {
   color: #999;
@@ -674,7 +674,7 @@ body {
 }
 .rewards::before {
   content: "";
-  background: url(/images/reward_star_bg_m.png) right 0 / cover no-repeat ;
+  background: url(../images/reward_star_bg_m.png) right 0 / cover no-repeat ;
   position: absolute;
   top: 0;
   left: -50px;
@@ -683,7 +683,7 @@ body {
 }
 .rewards::after {
   content: "";
-  background: url(/images/reward_texbg.jpg) 0 0 / cover no-repeat;
+  background: url(../images/reward_texbg.jpg) 0 0 / cover no-repeat;
   display: block;
   width: 100%;
   min-height: 260px;
@@ -740,7 +740,7 @@ body {
 /* 르완다 원두 */
 .bean-wrap {
   position: relative;
-  background: url(/images/20_summer_rwanda_bg.jpg) right 0 / cover no-repeat;
+  background: url(../images/20_summer_rwanda_bg.jpg) right 0 / cover no-repeat;
 }
 .bean {
   width: 1100px;
@@ -803,14 +803,14 @@ body {
 .reserve-wrap {
   position: relative;
   min-height: 400px;
-  background: url(/images/summer2_reserve_bean.png) no-repeat right;
+  background: url(../images/summer2_reserve_bean.png) no-repeat right;
   background-color: #C3D2D9;
 }
 .reserve {
   width: 1330px;
   min-height: 400px;
   margin: 0 auto;
-  background: url(/images/summer2_reserve_title.png) no-repeat;
+  background: url(../images/summer2_reserve_title.png) no-repeat;
   background-position: left 80px;
 }
 .reserve__title {
@@ -848,7 +848,7 @@ body {
 .product-wrap {
   position: relative;
   background-color: #45434C;
-  background-image: url(/images/fav_prod_bg_new.jpg);
+  background-image: url(../images/fav_prod_bg_new.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;

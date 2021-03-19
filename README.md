@@ -5,9 +5,11 @@
 
 ## 발표자료
 
-![](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드1.PNG)
+![](./img/슬라이드1.png)
 
-![슬라이드2](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드2.PNG)
+
+
+![슬라이드2](./img/슬라이드2.PNG)
 
 ![슬라이드3](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드3.PNG)
 

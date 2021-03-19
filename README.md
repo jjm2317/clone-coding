@@ -5,84 +5,43 @@
 
 ## 발표자료
 
-![](./img/슬라이드1.png)
-
-
-
-![슬라이드2](./img/슬라이드2.PNG)
-
-![슬라이드3](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드3.PNG)
-
-![슬라이드4](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드4.PNG)
-
-![슬라이드5](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드5.PNG)
-
-![슬라이드6](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드6.PNG)
-
-![슬라이드7](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드7.PNG)
-
-![슬라이드8](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드8.PNG)
-
-![슬라이드9](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드9.PNG)
-
-![슬라이드10](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드10.PNG)
-
-![슬라이드11](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드11.PNG)
-
-![슬라이드12](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드12.PNG)
-
-![슬라이드13](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드13.PNG)
-
-![슬라이드14](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드14.PNG)
-
-![슬라이드15](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드15.PNG)
-
-![슬라이드16](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드16.PNG)
-
-![슬라이드17](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드17.PNG)
-
-![슬라이드18](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드18.PNG)
-
-![슬라이드19](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드19.PNG)
-
-![슬라이드20](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드20.PNG)
-
-![슬라이드21](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드21.PNG)
-
-![슬라이드22](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드22.PNG)
-
-![슬라이드23](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드23.PNG)
-
-![슬라이드24](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드24.PNG)
-
-![슬라이드25](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드25.PNG)
-
-![슬라이드26](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드26.PNG)
-
-![슬라이드27](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드27.PNG)
-
-![슬라이드28](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드28.PNG)
-
-![슬라이드29](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드29.PNG)
-
-![슬라이드30](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드30.PNG)
-
-![슬라이드31](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드31.PNG)
-
-![슬라이드32](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드32.PNG)
-
-![슬라이드33](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드33.PNG)
-
-![슬라이드34](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드34.PNG)
-
-![슬라이드35](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드35.PNG)
-
-![슬라이드36](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드36.PNG)
-
-![슬라이드37](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드37.PNG)
-
-![슬라이드38](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드38.PNG)
-
-![슬라이드39](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드39.PNG)
-
-![슬라이드40](C:\Users\Jung\Documents\dev\스타벅스 피피티 png\프로젝트_데레4조_2\슬라이드40.PNG)
+!.[슬라이드1](./img/슬라이드1.png)
+!.[슬라이드2](./img/슬라이드2.png)
+!.[슬라이드3](./img/슬라이드3.png)
+!.[슬라이드4](./img/슬라이드4.png)
+!.[슬라이드5](./img/슬라이드5.png)
+!.[슬라이드6](./img/슬라이드6.png)
+!.[슬라이드7](./img/슬라이드7.png)
+!.[슬라이드8](./img/슬라이드8.png)
+!.[슬라이드9](./img/슬라이드9.png)
+!.[슬라이드10](./img/슬라이드10.png)
+!.[슬라이드11](./img/슬라이드11.png)
+!.[슬라이드12](./img/슬라이드12.png)
+!.[슬라이드13](./img/슬라이드13.png)
+!.[슬라이드14](./img/슬라이드14.png)
+!.[슬라이드15](./img/슬라이드15.png)
+!.[슬라이드16](./img/슬라이드16.png)
+!.[슬라이드17](./img/슬라이드17.png)
+!.[슬라이드18](./img/슬라이드18.png)
+!.[슬라이드19](./img/슬라이드19.png)
+!.[슬라이드20](./img/슬라이드20.png)
+!.[슬라이드21](./img/슬라이드21.png)
+!.[슬라이드22](./img/슬라이드22.png)
+!.[슬라이드23](./img/슬라이드23.png)
+!.[슬라이드24](./img/슬라이드24.png)
+!.[슬라이드25](./img/슬라이드25.png)
+!.[슬라이드26](./img/슬라이드26.png)
+!.[슬라이드27](./img/슬라이드27.png)
+!.[슬라이드28](./img/슬라이드28.png)
+!.[슬라이드29](./img/슬라이드29.png)
+!.[슬라이드30](./img/슬라이드30.png)
+!.[슬라이드31](./img/슬라이드31.png)
+!.[슬라이드32](./img/슬라이드32.png)
+!.[슬라이드33](./img/슬라이드33.png)
+!.[슬라이드34](./img/슬라이드34.png)
+!.[슬라이드35](./img/슬라이드35.png)
+!.[슬라이드36](./img/슬라이드36.png)
+!.[슬라이드37](./img/슬라이드37.png)
+!.[슬라이드38](./img/슬라이드38.png)
+!.[슬라이드39](./img/슬라이드39.png)
+!.[슬라이드40](./img/슬라이드40.png)
